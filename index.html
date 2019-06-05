@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Crystals_Collector_Game</title>
+  
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+ 
+  </head>
+
+
+  <h1>Crystals Collector Game - Homework</h1>
+
+  <h2 >Rules of the Game</h2>
+  <p>There will be four crystals displayed as buttons on the page.A random number is displayed at the start of the game. When you click on a crystal, it will add a specific amount of points to your total score. Once the crystal is clicked, it update your score counter. You win if your total score matches the random number from the beginning of the game. You lose if your score goes above the random number.</p>
+<p>The game restarts whenever the player wins or loses. When the game begins again, you will see a new random number. Also, all the crystals will have four new hidden values. Your score (and score counter) will reset to zero. The value of each crystal is hidden from you until you click on it.  Each time when the game starts, the game will change the values of each crystal.</p>
+  <br>
+  <div class="row, container">
+
+  <h3>Target Score: 
+    <span id='targetScore'>0</span>
+    </h3>
+    <h3 class>Your Score: <span id='yourScore'>0</span>
+    </h3>
+  
+    <br>
+    
+  <div class="buttons">
+  <button class="diamond" id="red" value="6">Red</button>
+  <button class="diamond" id="blue" value="3">Blue</button>
+  <button class="diamond" id="yellow" value="6">Yellow</button>
+  <button class="diamond" id="green" value="8">Green</button>
+  </div>
+  
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
